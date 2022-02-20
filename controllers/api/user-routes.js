@@ -80,7 +80,7 @@ router.post('/login', (req, res) => {
             req.session.username = dbUserData.username;
             req.session.user_id = dbUserData.id;
             req.session.loggedIn = true;
-            res.json({ user: dbUserData, message: 'You are logged in.');
+            res.json({ user: dbUserData, message: 'You are logged in.'});
         });
     });
 });
