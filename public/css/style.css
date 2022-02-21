@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(164, 199, 164);
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+main {
+    margin: 15px auto;
+    width: 94%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
